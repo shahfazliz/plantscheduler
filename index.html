@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="PlantScheduler">
+    <head>
+        
+    </head>
+    <body ng-controller="testController as ctrl">
+        
+        <div>
+            <label>Enter your query:</label>
+            <input type="text" ng-model="ctrl.query" size="90" />
+            <!--<input type="button" value="Run query" ng-click="ctrl.runQuery('test.pl')" />-->
+            <input type="button" value="Run plant query" ng-click="ctrl.runQuery('plant.pl')" />
+        </div>
+        
+    </body>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="src/prolog.factory.js"></script>
+    <script type="text/javascript" src="src/app.js"></script>
+</html>

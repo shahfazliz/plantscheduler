@@ -1,0 +1,15 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Plant Scheduler will suggest planting sequence to maximize productivity based on space and selected plants.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahfazliz Shahron",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "jquery": "^3.0.0"
+  }
+}
